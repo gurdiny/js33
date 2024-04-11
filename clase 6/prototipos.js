@@ -5,7 +5,7 @@
 // const capOtherString = someOtherString.toLocaleLowerCase //Devuelve el valor de la propieedad
 
 // console.log(capOtherString)
-// console.log(capString)
+// console.log(capString) 
 
 const phrase = "La mejor forma de predecir el futuro es creándolo"
 
@@ -20,6 +20,8 @@ console.log(length)
 // Dentro de una funcion se le pase un split a la string para convertir cada caracter en un elemento de un array (incluyendo los espacios)
 // con el metrodo filter se eliminan los que coincidan con los que estan vacios y se le hace un console log a ese resultado.
 
+
+
 const letters = () => {
     const withOutLetters = phrase.split("")
     const withOutSpace = withOutLetters.filter(vacio => vacio != " ")
@@ -31,6 +33,19 @@ letters()
 // 3.- Saber cuántas palabras tiene la frase
 // necesitamos convertir el strng en un array pero esta vez divididos por espacios " "
 // Posteriormente contat el largo del array
+
+
+const countWordf = (text) => {
+    let wordList = text.split(" ")
+    totalWords = wordList.length
+    return totalWords
+}
+
+let countTestOne = countWordf(phrase)
+console.log(countTestOne)
+
+const countWord = (text) => text.split(" ").length
+console.log(countWord(phrase))
 
 const palabras = phrase.split(" ")
 console.log(palabras.length)

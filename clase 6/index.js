@@ -1,4 +1,4 @@
-// Repaso de la semana 1
+// Repaso de la semana 1 
 function sumarDosNumeros (num1, num2) {
 
     let nombre = num1 + num2 
