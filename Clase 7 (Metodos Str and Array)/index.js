@@ -3,7 +3,7 @@
 //   ( quiero saber la longitud de la segunda palabra)
 //   si preguntamos por una posicion que no existe en la frase, devolvemos un mensaje que indique el error
 
-//  3.- Se requiere eliminar todas las palabras cortas de la frase, considerando que una palabra corta es aquella que tiene 3 caracteres o menos, y debemos obtener la nueva frase sin palabras cortas
+
 //  4.- Se requiere obtener la frase, pero escrita en orden inve
 
 // const phrase = "La mejor forma de predecir el futuro es creándolo"
@@ -42,4 +42,7 @@ const removeWord = (index, frase2, remplace) => {
 const frase2 = "La mejor forma de predecir el futuro es creándolo"
 const posicion2 = 1
 const remplace = "hola"
-console.log(removeWord(posicion2, frase2, remplace))
+console.log(removeWord(posicion2, frase2, remplace)) 
+
+
+//  3.- Se requiere eliminar todas las palabras cortas de la frase, considerando que una palabra corta es aquella que tiene 3 caracteres o menos, y debemos obtener la nueva frase sin palabras cortas
