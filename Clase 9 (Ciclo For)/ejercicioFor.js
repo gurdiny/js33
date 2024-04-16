@@ -81,15 +81,6 @@ const users = [
       1.3.2 ese nombre ingresarlo en la lista nueva
       1.4 Retornar la lista con los nombres
 
-
-     
-
-    
-
-
-     
-      5.- Necesitamos saber la mayor edad
-      6.- Necesitamos saber la menor edad
   */
   
     //   const extractNames = (list) => {
@@ -197,12 +188,12 @@ const extractAge = (list) => {
 /*
     5.- Necesitamos saber la mayor edad
 
-    4.1 Cerear una funcion que me permita contener mi funcionalidad
-      4.2 Crear un array vacio que es donde irá lo que queremos regresar
-      4.3 Iterear a lo largo de la lista de usuarios
-      4.3.1 extraer unicamente el numero de la edad
-      4.3.2 ingresar ese numero en el array vacio
-      4.5 retornar un math.max del resultado de ese array
+    5.1 Cerear una funcion que me permita contener mi funcionalidad
+      5.2 Crear un array vacio que es donde irá lo que queremos regresar
+      5.3 Iterear a lo largo de la lista de usuarios
+      5.3.1 extraer unicamente el numero de la edad
+      5.3.2 ingresar ese numero en el array vacio
+      5.5 retornar un math.max del resultado de ese array
     
 */
 const extractMayor = (list) => {
@@ -223,6 +214,13 @@ console.log(extractMayor(users))
 /*
     
     6.- Necesitamos saber la menor edad
+
+    6.1 Cerear una funcion que me permita contener mi funcionalidad
+      6.2 Crear un array vacio que es donde irá lo que queremos regresar
+      6.3 Iterear a lo largo de la lista de usuarios
+      6.3.1 extraer unicamente el numero de la edad
+      6.3.2 ingresar ese numero en el array vacio
+      6.5 retornar un math.max del resultado de ese array
 */
 
 
