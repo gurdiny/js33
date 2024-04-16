@@ -74,16 +74,25 @@ const canes = [
 // console.log(perro);
 
 // console.log("perro2 despues de cambiar", perro2);
+console.log("Ejercicio 1")
    const añosHombre = (array) => {
     let añosReal = array.map((number) =>  {
       number.edad = number.edad*7
-    return number
+    return {...number}
     })
     
     return añosReal
 
     }
     console.log(añosHombre(canes))
+
+  //   //Ejercicio de clase
+  //   console.log("Ejercicio 1 Clase")
+  //  const añosHombreClass = (array) => 
+  //    array.map((number) =>  ({...number, edad: number.edad*7}))
+  //     // number.edad = number.edad*7
+
+  //   console.log(añosHombreClass(canes))
    
     /* 2.- Necesitamos conocer la cantidad de canes que ya estan vacunados
     a. Hacer una funcion que reciba como parametros una lista de array
@@ -93,7 +102,7 @@ const canes = [
     e. retornar el valor de la variable map
 
     */
-
+    console.log("Ejercicio 2")
     const vacunados = (array) => {
 
         let perrosVacunados = 0
@@ -108,6 +117,19 @@ const canes = [
     let ex2 = vacunados(canes)
     console.log(`la cantidad de perros son: ${ex2}`)
 
+    // console.log("Ejercicio 2 Clase")
+    // const vacunadosClase = (array) => {
+
+    //     let perrosVacunados = 0
+    //     array.forEach(element => {
+    //         if(element.vacunado) perrosVacunados++
+            
+    //     })
+    //     return perrosVacunados
+    // }
+    // let ex2Class = vacunadosClase(canes)
+    // console.log(`la cantidad de perros son: ${ex2Class}`)
+
 
     /* 
      3.- Necesitamos una lista que contenga el nombre y la dirección completa de cada perro, en el siguiente formato:
@@ -118,12 +140,12 @@ const canes = [
         c. en una variable Acceder al a propiedad en cada uno de esos imprimir la propiedad nombre calle numero, colonia, y cp
         d. regresar la variable
     */
-
+        console.log("Ejercicio 3")
         const accederAlaDireccion = (array) =>{
         
         
         let direcciones = array.map((element) => {
-            let { nombre, direccion} = element;
+            let { nombre, direccion} = element
             let {calle, numero, colonia, codigoPostal} = direccion
             return `${nombre}: ${calle} #${numero}, ${colonia}, ${codigoPostal}`
         });
@@ -152,7 +174,7 @@ const canes = [
 
       
 */
-
+console.log("Ejercicio 4")
 const añosHombrePromedio = (array) => {
   let promedio = 0
   let añosReal = []
@@ -168,7 +190,7 @@ const añosHombrePromedio = (array) => {
 
   /*5.- Necesitamos una nueva lista con todos los objetos de los canes, pero cambiando el valor de la propiedad "vacunado" a "si || no" ( si el valor viene en true, cambiarlo a "Si", si el valor viene en false, cambiarlo a "No")
     */
-
+  console.log("Ejercicio 5")
   const cambioVacunado = (array) => {
      
     array.forEach(element => {
@@ -186,7 +208,7 @@ const añosHombrePromedio = (array) => {
   console.log(ex5)
 
 /* 6.- Necesitamos una nueva lista con únicamente el nombre de cada can */
-
+console.log("Ejercicio 6")
 const nombresDePerros = (array) =>{
   let nombreDeCadaPerro = array.map((element) => {
     let {nombre} = element;
