@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    
+    <div class="row p-3">
+        <div class="col-4 rounded">
+            <form id="product-id" action="" class="bg-dark tex-white border rounder shadow p-3">
+                <div class="form-group">
+                    <label class="text-white" for="">Nombre del Producto</label>
+                    <input type="text"  class="form-control" value="Guitarra Eléctrica" name="product">
+                </div>
+                <div class="form-group">
+                    <label class="text-white" for="">Descripcion</label>
+                    <input type="text"  class="form-control" value="Es una guitarra muy bonita" name="description">
+                </div>
+                <div class="form-group">
+                    <label class="text-white" for="">Precio</label>
+                    <input type="number" class="form-control" value="20" name="price">
+                </div>
+                <div class="form-group">
+                    <label class="text-white" for="">Categoría</label>
+                    <input type="text" class="form-control" value="Cuerdas" name="category">
+                </div>
+                <div class="form-group">
+                    <label class="text-white" for="">Imagen</label>
+                    <input type="text" class="form-control" value="https://martinguitarmexico.com/wp-content/uploads/2022/09/10000C1216ENYLON-01-1.jpg" name="image">
+                </div>
+
+                <button id="button-form" class="btn btn-primary mt-3"> Crear Producto</button>
+            </form>
+        </div>
+
+        <div class="col-8">
+            <div class="d-flex justify-content-end">
+                <select class="form-select categories-select bg-dark text-white" id="select-categories">
+                    
+                </select>
+
+            </div>
+            <div>
+                <ul id="cards-products" class="row">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+.container{
+    padding: 30px;
+}
+#author-cards{   
+    .blog-card{
+
+        
+        padding: 0px;
+        .card-body{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 10px;
+            img{
+                height: 50px;
+                width: 23%;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-right: 10px;
+            }
+        }
+        
+    }
+}
+
+.blog-card{
+    
+    img{
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 5px 5px 0px 0px;    
+        
+    }
+    
+        
+}
+
+li.card{
+
+    
+    .autor{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px;
+
+        .img-autors{
+            height: 50px;
+            width: 10%;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+    }
+
+}
+
+
+.info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    button {
+        background: #000;
+        color: #fff;
+        border: none;
+        padding: 5px 15px;
+    }
+}

@@ -701,13 +701,25 @@ const getaNoOscarMovies = (array) =>{
 console.log(getaNoOscarMovies(movies))
 
 
+/* 
+10. Obtener la cantidad de películas de cada clasficación. Esta información debe estar organizada de la siguiente forma:
+          {
+              [nombre_de_la_clasificacion]:[cantidad]
+          }
+          Es decir, la propiedad del objeto resultante deber ser la clasificación, y el valor de esa propiedad debe ser la cantidad de películas que pertenecen a esa clasificación
+*/
+
+const getMoviesListbyClasification = (array) =>{
+  
+}
+
 /*
 10. Obtener la cantidad de películas de cada clasficación. Esta información debe estar organizada de la siguiente forma:
           {
               [nombre_de_la_clasificacion]:[cantidad]
           }
           Es decir, la propiedad del objeto resultante deber ser la clasificación, y el valor de esa propiedad debe ser la cantidad de películas que pertenecen a esa clasificación
-      11. Obtener la cantidad de películas de cada país, organizada de la siguiente forma:
+11. Obtener la cantidad de películas de cada país, organizada de la siguiente forma:
           {
               [pais]:[cantidad]
           }
